@@ -36,11 +36,22 @@
 
 // Problem 4: Find the Maximum Number
 
-let array = [5, 1, 9, 3];
+// let array = [5, 1, 9, 3];
 
-const bigNumber = () => {
-    const value = Math.max(...array)
-    console.log(value);
-};
+// const bigValue = () => {
+//   const value = Math.max(...array);
+//   console.log(value);
+// };
 
-bigNumber();
+// bigValue();
+
+// Problem 5: Remove Duplicates from an Array
+
+// const arr = [1, 2, 2, 3, 4, 4];
+
+// function uniqueArr() {
+//     let uniqueValue = [... new Set(arr)];
+//     console.log(uniqueValue);
+// }
+
+// uniqueArr();
