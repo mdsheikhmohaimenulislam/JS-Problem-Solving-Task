@@ -1,25 +1,39 @@
-// function add(name) {
+// Problem 1: Reverse a String
 
-//   return name.split("").reverse().join("");
+function add(name) {
 
-// }
+  return name.split("").reverse().join("");
 
-// console.log(add("hello"));
+}
 
-// let myStr = "programming"
+console.log(add("hello"));
 
-// let vowels = /[aeiou]/g
 
-// let match = myStr.match(vowels).length
-// console.log(match);
+
+// Problem 2: Count Vowels in a String
+
+let myStr = "programming"
+
+let vowels = /[aeiou]/g
+
+let match = myStr.match(vowels).length
+console.log(match);
+
+
+
+// Problem 3: Check for Palindrome
 
 let name = "madam";
 let value = "hello";
 
 const revValue = () => {
-  const myRevValue = name.split("").reverse().join("");
-  const checkValue = name === myRevValue;
-  console.log(checkValue);
+  const myRevName = name.split("").reverse().join("");
+  const checkName = name === myRevName;
+  console.log("Check Name: ", checkName);
+
+  const myRevValue = value.split("").reverse().join("");
+  const checkValue = value === myRevValue;
+  console.log("Check Value: ", checkValue);
 };
 
 revValue();
