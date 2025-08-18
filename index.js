@@ -47,20 +47,16 @@
 
 // Problem 5: Remove Duplicates from an Array
 
-// const arr = [1, 2, 2, 3, 4, 4];
-
-// function uniqueArr() {
+// function uniqueArr(arr) {
 //     let uniqueValue = [... new Set(arr)];
 //     console.log(uniqueValue);
 // }
 
-// uniqueArr();
+// uniqueArr([1, 2, 2, 3, 4, 4]);
 
 // Problem 6: Sum of All Numbers in an Array
 
-// let number = [1, 2, 3, 4];
-
-// function sum() {
+// function sum(number) {
 //   let s = 0;
 
 //   for (num of number) {
@@ -71,13 +67,23 @@
 
 // }
 
-// console.log(sum());
+// console.log(sum([1, 2, 3, 4]));
 
 // Problem 7: Find Even Numbers in an Array
-const even = [1, 2, 3, 4, 5, 6];
 
-function evenNumber() {
-  return even.filter((evenSum) => evenSum % 2 === 0);
-}
+// function evenNumber(even) {
+//   return even.filter((evenSum) => evenSum % 2 === 0);
+// }
 
-console.log(evenNumber());
+// console.log(evenNumber([1, 2, 3, 4, 5, 6]));
+
+// Problem 8: Capitalize First Letter of Each Word
+
+// function words(word) {
+//   return word
+//     .split(" ")
+//     .map((value) => value[0].toUpperCase() + value.substring(1).toLowerCase())
+//     .join(" ");
+// }
+
+// console.log(words("Hello World"));
