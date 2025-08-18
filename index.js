@@ -55,3 +55,20 @@
 // }
 
 // uniqueArr();
+
+// Problem 6: Sum of All Numbers in an Array
+
+// let number = [1, 2, 3, 4];
+
+// function sum() {
+//   let s = 0;
+
+//   for (num of number) {
+//     s += num;
+//   }
+
+//   return s;
+
+// }
+
+// console.log(sum());
