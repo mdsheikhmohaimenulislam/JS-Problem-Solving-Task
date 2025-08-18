@@ -87,3 +87,17 @@
 // }
 
 // console.log(words("Hello World"));
+
+
+
+// Problem 9: Find the Factorial of a Number
+// function value(num){
+//     let fac = 1;
+//     for(let i = num; i >= 1; i--){
+//         fac = fac * i
+//     }
+//     return fac
+    
+// }
+
+// console.log(value(5));
