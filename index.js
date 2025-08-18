@@ -72,3 +72,12 @@
 // }
 
 // console.log(sum());
+
+// Problem 7: Find Even Numbers in an Array
+const even = [1, 2, 3, 4, 5, 6];
+
+function evenNumber() {
+  return even.filter((evenSum) => evenSum % 2 === 0);
+}
+
+console.log(evenNumber());
