@@ -61,7 +61,7 @@
 // }
 
 
-// 6.
+// 6. 
 // const Temperature = 40
 // if(Temperature >= 30){
 //     console.log("AC ta on kore dao")
