@@ -8,7 +8,7 @@
 // console.log(75 == 75);
 
 // // 4.
-// console.log(100 == 75);
+// console.log(100 ==  75);
 
 // // 5.
 // console.log(10 != 7);
