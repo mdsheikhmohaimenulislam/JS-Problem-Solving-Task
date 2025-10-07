@@ -56,7 +56,7 @@
 // 5.
 // const egg = 13;
 // const hen = false;
-// if(egg > 12 || hen == true){
+// if(egg >= 12 || hen == true){
 //     console.log("egg kurMa ranNa korBo")
 // }else{
 //     console.log("bread or banana eat")
@@ -65,7 +65,7 @@
 // 6.
 // const humanBodyTemperature = 105;
 // const cough = false;
-// if (humanBodyTemperature > 100 || cough == true) {
+// if (humanBodyTemperature >= 100 || cough == true) {
 //   console.log("go to the doctor chamber");
 // } else {
 //   console.log("if not human body temperature 100 then sleep with a blanket");
@@ -74,7 +74,7 @@
 // 7.
 // const present = 81;
 // const homeWork = true;
-// if (present > 80 && homeWork == true) {
+// if (present >= 80 && homeWork == true) {
 //   console.log("You will go to the exam hall.");
 // } else {
 //   console.log(
@@ -99,3 +99,30 @@
 // }else{
 //     console.log("n't available parcel discount")
 // }
+
+//?.............Discount else-if.................?//
+// const price = 6500;
+// if(price >= 5000){
+//     const discount = (price / 100) * 10;
+//     const pay = price - discount;
+//     console.log(pay)
+// }else{
+//     console.log(price)
+// }
+
+
+// const price = 4000;
+// if (price >= 5000) {
+//   const discount = (price / 100) * 10;
+//   const pay = price - discount;
+//   console.log("10% discount", pay);
+// } else if (price >= 2500) {
+//   const discount = (price / 100) * 5;
+//   const pay = price - discount;
+//   console.log("5% discount", pay);
+// } else {
+//   console.log(price);
+// }
+
+
+
