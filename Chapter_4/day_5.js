@@ -110,7 +110,6 @@
 //     console.log(price)
 // }
 
-
 // const price = 4000;
 // if (price >= 5000) {
 //   const discount = (price / 100) * 10;
@@ -124,5 +123,69 @@
 //   console.log(price);
 // }
 
+//?............Discount Practice..............?//
+// 1.
+// const price = 4500;
+// if (price >= 6000) {
+//   const discount = (price / 100) * 15;
+//   const pay = price - discount;
+//   console.log(
+//     "Anyone shopping for 6000 taka and 6000 taka more then 15% discount!",
+//     pay
+//   );
+// } else if (price >= 3000) {
+//   const discount = (price / 100) * 5;
+//   const pay = price - discount;
+//   console.log(
+//     "Anyone shopping for 3000 taka and 3000 taka more than 5% discount!",
+//     pay
+//   );
+// } else {
+//   console.log(price);
+// }
 
+// 2.
+// const price = 500;
+// const age = 13;
+// const age1 = 60;
+// if (age <= 12) {
+//   console.log(
+//     "Anyone under the age of 12 will receive news on my restaurant for free."
+//   );
+// } else if (age1 >= 60) {
+//   const discount = (price / 100) * 50;
+//   const pay = price - discount;
+//   console.log(
+//     "Anyone aged 60 or over will receive a 50% discount at my restaurant.",
+//     pay
+//   );
+// } else {
+//   console.log(price);
+// }
+
+// 3.
+// const accountBalance = 1500;
+// if (accountBalance < 1000) {
+//   console.log("Deposit do it!");
+// } else if (accountBalance >= 1000 && accountBalance <= 5000) {
+//   console.log("Enjoy the beautiful life.");
+// } else if (accountBalance >= 5000) {
+//   console.log("You are a rich man, you can marry me.");
+// }
+
+
+// 4.
+// const mark = 100;
+// if(mark < 50){
+//     console.log(`You are failing the exam. And you're mark ${mark}`)
+// }else if(mark >= 50 && mark <= 80){
+//     console.log(`You have passed the exam. And you're mark ${mark}`)
+// }else if(mark > 80 && mark <= 100){
+//     console.log(`You have an A+ on the exam. And you're mark ${mark}`)
+// } else {
+//     console.log(`Invalid mark! Marks can't be more than 100.`);
+// }
+
+
+// 5.
 
