@@ -24,5 +24,16 @@
 //     console.log("Home Alone")
 // }
 
+// const frandInvite = false;
+// const myWallet = 1000;
 
-
+// if (frandInvite == true) {
+//   console.log("You are going to your friend's birthday party");
+//   if (myWallet >= 1000) {
+//     console.log("I will give a gift");
+//   } else {
+//     console.log("I don't have that much money.");
+//   }
+// } else {
+//   console.log("You are not going to your friend's birthday party");
+// }
