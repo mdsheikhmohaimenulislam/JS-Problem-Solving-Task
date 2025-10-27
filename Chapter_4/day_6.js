@@ -10,16 +10,19 @@
 //   console.log("You are pass");
 // }
 
-// const money = 499;
+// const money = 300;
 // const popcornPrice = 40;
 
-// if(money < 300){
-// console.log("gore bosha takbo")
-// }else if(money >= 300){
-//     if(popcornPrice < 50){
-//         console.log("popcorn kinbona")
-//     }else if(popcornPrice >= 50){
-//         console.log("kinbo")
+// if(money >= 300){
+//     console.log("Going to Watch a movie");
+//     if(popcornPrice <= 50){
+//         console.log("Buying PopCorn");
+//     }else{
+//         console.log("PopCorn is Expensive")
 //     }
-// } 
-  
+// }else{
+//     console.log("Home Alone")
+// }
+
+
+
