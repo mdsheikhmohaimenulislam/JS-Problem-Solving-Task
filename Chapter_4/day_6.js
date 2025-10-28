@@ -24,10 +24,10 @@
 //     console.log("Home Alone")
 // }
 
-// const frandInvite = false;
+// const friendInvite = false;
 // const myWallet = 1000;
 
-// if (frandInvite == true) {
+// if (friendInvite == true) {
 //   console.log("You are going to your friend's birthday party");
 //   if (myWallet >= 1000) {
 //     console.log("I will give a gift");
@@ -36,4 +36,35 @@
 //   }
 // } else {
 //   console.log("You are not going to your friend's birthday party");
+// }
+
+// const guest = false;
+// const wantTea = true;
+// const wantCookies = false;
+
+// if (guest) {
+//   if (wantTea) {
+//     if (wantCookies) {
+//       console.log("I'll give you tea and cookies");
+//     } else {
+//       console.log("I'll give you only tea");
+//     }
+//   } else {
+//     console.log("Bosha bosha, star jolsha dekho");
+//   }
+// } else {
+//   console.log("NO guest today!");
+// }
+// if (guest) {
+//   if (wantTea && wantCookies) {
+//     console.log("I'll give you tea and cookies");
+//   } else if (wantTea && !wantCookies) {
+//     console.log("I'll give you only tea");
+//   } else if (!wantTea && wantCookies) {
+//     console.log("I'll give you only cookies");
+//   } else {
+//     console.log("Bosho bosho, Star Jolsha dekho");
+//   }
+// } else {
+//   console.log("No guest today!");
 // }
