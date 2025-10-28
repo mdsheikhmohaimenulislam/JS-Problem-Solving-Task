@@ -68,3 +68,39 @@
 // } else {
 //   console.log("No guest today!");
 // }
+
+// const accountIsActive = false;
+// const subscription = true;
+// if(accountIsActive){
+//   if(subscription){
+//     console.log("Your account is premium")
+//   }else{
+//     console.log("Your account is free")
+//   }
+// }else{
+//   console.log("Your account is not active")
+// }
+
+// const homeFrize = false;
+// const foodDeliveryApp = false;
+
+// if (homeFrize) {
+//   console.log("Make food hot");
+// } else if (foodDeliveryApp) {
+//   console.log("I'm ordering my food");
+// } else {
+//   console.log("I'm today, Roza");
+// }
+
+// const partyGuest = 100;
+// const grift = false;
+
+// if (partyGuest >= 100) {
+//   if (grift) {
+//     console.log("Lets party all night");
+//   } else {
+//     console.log("I will party with mySelf");
+//   }
+// } else {
+//   console.log("Today, I have no more then 100 people at my party");
+// }
