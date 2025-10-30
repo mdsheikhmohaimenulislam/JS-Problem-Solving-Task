@@ -36,3 +36,12 @@
 // `const examPass = false;
 // const examResult = examPass ? "Party time" : "I will study seriously next semester";
 // console.log(examResult)`
+
+
+// 6.
+// const sunny = false;
+// !sunny? console.log("Stay Home") : console.log("Sunny not stay home")
+
+// 7.
+// const expensive = false;
+// !expensive? console.log("I will buy this items"): console.log("I will not buy that items")
