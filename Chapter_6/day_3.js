@@ -101,4 +101,4 @@
 
 // 6.
 //  const city = ['Dhaka','Chittagong','SylHet']
-//  console.log(city.indexOf('Dhaka'))  
+//  console.log(city.indexOf('Dhaka'))    
