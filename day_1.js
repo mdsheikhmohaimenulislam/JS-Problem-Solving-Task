@@ -4,7 +4,7 @@ console.log(city);
 const City = "Chittagong";
 console.log(City);
 
-const father = "4.55544";
+const father = "4.55544";   
 const fatherNumber = parseFloat(father);
 // toFixed use by Decimal value 1,2,3 etc any Decimal value you want. then use toFixed.
 const fatherValue = fatherNumber.toFixed(2)
