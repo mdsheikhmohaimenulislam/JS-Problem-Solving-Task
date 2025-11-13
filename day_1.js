@@ -5,7 +5,7 @@ const City = "Chittagong";
 console.log(City);
 
 const father = "4.55544";        
-const fatherNumber = parseFloat(father);
+const fatherNumber = parseFloat(father);   
 // toFixed use by Decimal value 1,2,3, etc, any Decimal value you want. Then use toFixed.
 const fatherValue = fatherNumber.toFixed(2)
 console.log(typeof(fatherValue));
@@ -61,7 +61,7 @@ const firstFraction = "10.5678";
 const secondFraction = "5.4321";
 const totalFraction = parseFloat(firstFraction) + parseFloat(secondFraction);
 const result = totalFraction.toFixed(1);
-// result jodi 16.0 as a number Because in JavaScript numbers don’t keep formatting — 16, 16.0, 16.00 are all the same value (16).
+// result jodi 16.0 as a number. Because in JavaScript numbers don’t keep formatting — 16, 16.0, 16.00 are all the same value (16).
 console.log(result);
 
 // 7. fraction number fraction ar pore 3 gor nita hobe,
