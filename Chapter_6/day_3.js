@@ -3,17 +3,17 @@
 // console.log(number);
 
 
-// const fruit = ["banana","mango","apple","orange",]
+// const fruit = ["banana", "mango", "apple", "orange",]
 // fruit.pop()
 // console.log(fruit)
 
 
-// const fruit = ["banana","mango","apple","orange",]
+// const fruit = ["banana", "mango", "apple", "orange",]
 // fruit.shift()
 // console.log(fruit)
 
 
-// const fruit = ["banana","mango","apple","orange",]
+// const fruit = ["banana", "mango", "apple", "orange",]
 // fruit.unshift("jackfruit")
 // console.log(fruit)
 
@@ -23,12 +23,12 @@
 // console.log(number)
 
 
-// const vegetable = ["potato","tomato","onion","ginger","eggplant"]
+// const vegetable = ["potato", "tomato", "onion", "ginger", "eggplant"]
 // vegetable.push("lemon")
 // console.log(vegetable)
 
 
-// const vegetable = ["potato","tomato","onion","ginger","eggplant"]
+// const vegetable = ["potato", "tomato", "onion", "ginger", "eggplant"]
 // vegetable.pop()
 // console.log(vegetable)
 
