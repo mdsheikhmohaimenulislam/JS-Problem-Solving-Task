@@ -21,12 +21,12 @@
 //   "pursue",
 //   "demonstrate",
 // ];
-// for (const bookItems of book) {
+// for (const bookItem of book) {
 //   console.log(bookItems);
 // }
 
 
-// const anime = ["one pice","hero academic","black cover","book of espEr"]
+// const anime = ["one piece", "hero academic", "black cover"," book of espEr"]
 // for(const items of anime){
 //     console.log(items)
 // }
