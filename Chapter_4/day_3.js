@@ -74,3 +74,5 @@
 // console.log(variableA == variableB);
 // console.log(variableA === variableB)
 
+//  console.log(variableA === variableB)
+//  console.log(variableA === variableB)
