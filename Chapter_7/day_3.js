@@ -72,7 +72,6 @@
 //   num++;
 // }
 
-
 // let num = 20;
 // let sum = 0;
 // while(num <= 40){
@@ -80,3 +79,39 @@
 //     num++
 // }
 // console.log(sum)
+
+// ! ........................................For loop....................................
+// for (let num = 0; num <= 10; num++) {
+//   console.log(num);
+// }
+
+// for (let num = 50; num <= 100; num++) {
+//   console.log(num);
+
+// }
+
+// let sum = 0;
+// for (let i = 10; i <= 20; i++) {
+//   sum = sum + i;
+// }
+// console.log(sum);
+
+// 1
+// for (let num = 150; num <= 170; num++) {
+//   console.log(num);
+// }
+
+// 2
+// let sum = 0;
+// for (let student = 31; student <= 58; student++) {
+//   console.log("student Role: ", student);
+//   sum = sum + student;
+// }
+// console.log("student result sum:", sum);
+
+// 3
+// let sum = 0;
+// for (let num = 25; num <= 75; num++) {
+//     sum = sum + num;
+// }
+// console.log("All sum value:", sum);
