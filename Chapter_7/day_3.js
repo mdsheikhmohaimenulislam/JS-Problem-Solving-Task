@@ -115,3 +115,4 @@
 //     sum = sum + num;
 // }
 // console.log("All sum value:", sum);
+
