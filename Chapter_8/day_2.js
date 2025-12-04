@@ -1,5 +1,5 @@
-const jon = {
-    name: "loi",
-    age:20,
+// const jon = {
+//     name: "loi",
+//     age:20,
     
-}
+// }
