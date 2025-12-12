@@ -1,3 +1,5 @@
+//…...........@..........
+
 // const result = 40;
 // const ics = false;
 // if (result < 40) {
