@@ -6,14 +6,14 @@ console.log(City);
 
 const father = "4.55544";        
 const fatherNumber = parseFloat(father);   
-// toFixed use by Decimal value 1,2,3, etc, any Decimal value you want. Then use toFixed.
+// toFixed use by Decimal value 1,2,3, etc, any Decimal value you want. Then use toFixed............
 const fatherValue = fatherNumber.toFixed(2)
 console.log(typeof(fatherValue));
 
 const first = 12.13568;
 const second = 31.22564;
 const total = first + second;
-// jodi toFixed use kori then number string a convert hoya jabe 
+// jodi toFixed use kori then number string a convert hoya jabe .........
 const totalValue = total.toFixed(2);
 // string ka number a convert korche.
 const convertNumber = parseFloat(totalValue)
@@ -22,7 +22,7 @@ console.log(convertNumber,totalValue)
 
 // Practice:
 
-// 1. number jog kora
+// 1. number jog kora.........
  const number = "20";
  const secondNumber = 10;
  const convertNumberIn = parseInt(number);
