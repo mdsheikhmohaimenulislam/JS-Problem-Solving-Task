@@ -25,6 +25,7 @@
 //   console.log(bookItems);
 // }
 
+//…...................... 😉😤............
 
 // const anime = ["one piece", "hero academic", "black cover"," book of espEr"]
 // for(const items of anime){
