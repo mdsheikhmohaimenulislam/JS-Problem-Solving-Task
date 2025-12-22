@@ -53,7 +53,7 @@
 //     console.log("You won't be able to take the job exam")
 // }
 
-// 5.
+// 5.,...........❤️.....❤️
 // const egg = 13;
 // const hen = false;
 // if(egg >= 12 || hen == true){
