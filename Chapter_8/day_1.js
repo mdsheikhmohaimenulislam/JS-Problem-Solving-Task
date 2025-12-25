@@ -1,7 +1,7 @@
 // const subject = {
 //   name: "biology",
 //   teacher: "Loi",
-//   examDate: "7 dec",
+//   examDate: "7 Dec",
 //   chapters: ["first", "second", "third"],
 //   nextExam: {
 //     name: "Final Exam",
@@ -13,10 +13,10 @@
 // 1. Practice
 // const teacher = {
 //     name:"Loi",
-//     age:"25",
-//     homeLocation:"UK",
-//     subject:"Mathematics",
-//     weight:"45 kg"
+//     age: "25",
+//     homeLocation: "UK",
+//     subject: "Mathematics",
+//     weight :"45 kg"
 // }
 
 // 2.......................0..................0.........................0.....................0
