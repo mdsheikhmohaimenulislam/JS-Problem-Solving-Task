@@ -69,4 +69,104 @@
 
 // console.log(sum);
 
+//!............Object lock and key ............................!//
 
+// const computer = {
+//   brand: "loi",
+//   price: 3500,
+//   processor: "intel",
+//   ssd: "512gb",
+// };
+
+// const key = Object.keys(computer);
+// const value = Object.values(computer);
+
+// console.log(key);
+// console.log(value);
+// console.log(key.includes("price"))
+
+// const profile = {
+//   name: "loi",
+//   age: 20,
+//   city: "Ngn",
+// };
+
+// const profileKeys = Object.keys(profile);
+// const hasName = profileKeys.includes("name");
+
+// console.log(hasName);
+
+// if ("name" in profile) {
+//   console.log("value exists");
+// } else {
+//   console.log("No Spam");
+// }
+
+//?.........................hasOwnProperty.................
+
+// const profile = {
+//   name: "loi",
+//   age: 20,
+//   city: "Ngn",
+// };
+
+// if (profile.hasOwnProperty("name")) {
+//   console.log("that data here");
+// } else {
+//   console.log("that data not here");
+// }
+
+// if(profile.name === "loi"){
+//     console.log("data here")
+// }else{
+//     console.log("data not here")
+// }
+
+// const person = {
+//   name: "Alice",
+//   age: 25,
+//   country: "Bangladesh",
+// };
+
+// const entries = Object.entries(person);
+// console.log(entries)
+
+// const profile = {
+//   name: "Loi",
+//   age: 20,
+//   city: "ngn",
+// };
+// for (const key in profile) {
+//   const value = profile[key];
+//   console.log(key, value);
+// }
+
+// for (const i in profile) {
+//   const result = profile[i];
+//   console.log(i, result);
+// }
+
+// const profile = {
+//   name: "loi",
+//   age: 20,
+//   city: "ngn",
+// };
+
+// const keys = Object.keys(profile);
+// for (const key of keys) {
+//   console.log(key);
+// }
+// for (const i in profile) {
+//   const result = profile[i];
+//   console.log(i, result);
+// }
+
+
+//*..........Practice...................
+//1.
+const book = {
+    name:"Loi Series",
+    author:"Loi",
+    page:125,
+    
+}
