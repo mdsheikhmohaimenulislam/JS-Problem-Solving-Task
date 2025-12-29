@@ -162,8 +162,8 @@
 // }
 
 
-//*..........Practice...................
-//1.
+//*..........Practice................
+
 const book = {
     name:"Loi Series",
     author:"Loi",
