@@ -261,7 +261,7 @@ const article = {
 //   console.log(keys, values);
 // }
 
-// 4
+// 4...
 // const phone = {
 //   brand: "samsung",
 //   model: "galaxy",
