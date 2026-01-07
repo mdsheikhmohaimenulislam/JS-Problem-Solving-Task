@@ -505,3 +505,5 @@ const article = {
 // console.log(value)
 // const value = arr.forEach((item) => console.log(item))
 
+// const arr = [{ x: 1 }, { x: 2 }];
+// arr.forEach((item) => console.log(item.x));
