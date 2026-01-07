@@ -271,3 +271,237 @@ const article = {
 // for (const key of values) {
 //   console.log(key, phone[key]);
 // }
+
+// 5......
+// const bike = {
+//   brand: "Hero",
+//   price: 12000,
+//   model: "Splendor",
+// };
+// const value = Object.values(bike);
+// const key = Object.keys(bike)
+// console.log("key:",key ,"Values:",value)
+
+// 6
+// const books = {
+//   book1: "Harry potter",
+//   book2: "The Hobbit",
+//   book3: "Game of thrones",
+// };
+// for (const vale in books) {
+//   const values = books[vale];
+//   console.log(values);
+// }
+
+// const value = Object.keys(books);
+// for(const key of value){
+//   console.log(key, books[key])
+// }
+
+// 7
+// const number = {
+//   a: 1,
+//   b: 2,
+//   c: 3,
+//   d: 4,
+//   e: 5,
+//   f: 6,
+// };
+
+// const sum = number.a + number.b + number.c + number.d + number.e + number.f;
+// console.log(sum);
+
+// const sum = Object.values(number).reduce((total,num)=> total + num,0)
+// console.log(sum)
+
+// let sum = 0;
+// for (const key in number) {
+//   sum += number[key];
+// }
+// console.log(sum);
+
+// 8
+// const player = {
+//   name: "loi",
+//   team: "blue",
+//   goals: 91,
+// };
+// const value = Object.values(player);
+// console.log(value);
+
+// 9
+// const building = {
+//   floors: 10,
+//   address: {
+//     street: "main road",
+//     city: "Dhaka",
+//     type: "commercial",
+//   },
+// };
+
+// for(const key in building){
+//   console.log(key,building[key])
+// }
+
+// for (const key in building) {
+//   if (typeof building[key] === "object") {
+//     for (const subKey in building[key]) {
+//       const subValue = building[key][subKey];
+//       console.log(subKey, subValue);
+//     }
+//   } else {
+//     console.log(key, building[key]);
+//   }
+// }
+
+// 10
+// const student = {
+//   name: "Siam",
+//   age: 22,
+//   scores: {
+//     math: 90,
+//     english: 85,
+//     science: 88,
+//   },
+//   address: {
+//     city: "Chittagong",
+//     postalCode: 4000,
+//   },
+// };
+
+// for (const key in student) {
+//   if (typeof student[key] === "object") {
+//     for (const subKey in student[key]) {
+//       const subValue = student[key][subKey];
+//       console.log(subKey, subValue);
+//     }
+//   } else {
+//     console.log(key, student[key]);
+//   }
+// }
+
+// 11
+// const company = {
+//   name: "TechHive",
+//   founded: 2018,
+//   employees: {
+//     total: 120,
+//     departments: {
+//       engineering: {
+//         lead: "Imran",
+//         members: 50,
+//       },
+//       marketing: {
+//         lead: "Rina",
+//         members: 30,
+//       },
+//       sales: {
+//         lead: "Hasan",
+//         members: 40,
+//       },
+//     },
+//   },
+//   location: {
+//     country: "Bangladesh",
+//     city: "Dhaka",
+//   },
+// };
+
+// for (const key in company) {
+//   if (typeof company[key] === "object") {
+//     for (const secondKey in company[key]) {
+//       if (typeof company[key][secondKey] === "object") {
+//         for (const thirdKey in company[key][secondKey]) {
+//           if (typeof company[key][secondKey][thirdKey] === "object") {
+//             for (const fourthKey in company[key][secondKey][thirdKey]) {
+//               console.log(
+//                 fourthKey,
+//                 company[key][secondKey][thirdKey][fourthKey]
+//               );
+//             }
+//           } else {
+//             console.log(thirdKey, company[key][secondKey][thirdKey]);
+//           }
+//         }
+//       } else {
+//         console.log(secondKey, company[key][secondKey]);
+//       }
+//     }
+//   } else {
+//     console.log(key, company[key]);
+//   }
+// }
+
+// function printValue(object) {
+//   for (const key in object) {
+//     if (typeof object[key] === "object") {
+//       printValue(object[key]);
+//     } else {
+//       console.log(key, object[key]);
+//     }
+//   }
+// }
+// printValue(company);
+
+// const printValue = (object) => {
+//   for (const key in object) {
+//     if (typeof object[key] === "object") {
+//       printValue(object[key]);
+//     } else {
+//       console.log(key, object[key]);
+//     }
+//   }
+// };
+// printValue(company);
+
+// 12
+// const library = {
+//   name: "City Library",
+//   established: 1995,
+//   books: {
+//     science: [
+//       { title: "Physics Basics", copies: 12 },
+//       { title: "Chemistry Guide", copies: 7 },
+//     ],
+//     literature: [
+//       { title: "Shakespeare Works", copies: 5 },
+//       { title: "Modern Poems", copies: 9 },
+//     ],
+//   },
+//   location: {
+//     city: "Dhaka",
+//     area: "Banani",
+//     coordinates: {
+//       lat: 23.7806,
+//       long: 90.4142,
+//     },
+//   },
+// };
+
+// function printValue(object) {
+//   for (const key in object) {
+//     if (typeof object[key] === "object") {
+//       printValue(object[key]);
+//     } else {
+//       console.log(key, object[key]);
+//     }
+//   }
+// }
+// printValue(library);
+
+// const printValue = (object) => {
+//   for (const key in object) {
+//     if (typeof object[key] === "object") {
+//       printValue(object[key]);
+//     } else {
+//       console.log(key, object[key]);
+//     }
+//   }
+// };
+// printValue(library);
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const value = arr.map((item)=> item + item)
+// console.log(value)
+// const value = arr.forEach((item) => console.log(item))
+
