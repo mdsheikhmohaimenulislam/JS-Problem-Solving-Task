@@ -89,7 +89,7 @@
 // animal.location = "mala"
 // console.log(animal)
 
-// 6
+// 6.......
 // const food = {
 //   name: "Pizza",
 //   price: 500,
