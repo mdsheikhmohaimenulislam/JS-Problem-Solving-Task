@@ -116,14 +116,14 @@
 // user.country = "BD";
 // console.log(user);
 
-// 9
+// 9....
 // const car = { brand: "Toyota" };
 // Object.seal(car);
 
 // delete car.brand;
 // console.log(car);
 
-// 10
+// 10.....
 // const obj = { a: 1, b: 2 };
 // Object.seal(obj);
 
