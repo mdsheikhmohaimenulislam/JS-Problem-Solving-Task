@@ -69,4 +69,33 @@
 // console.log(book);
 
 // 4
+// const gadget = {
+//   name: "G Phone",
+//   price: 5500,
+//   color: "black",
+// };
 
+// delete gadget.price;
+// console.log(gadget);
+
+// 5
+// const animal = {
+//   name: "Tiger",
+//   age: 30,
+//   location: "SunDorBon",
+// };
+// Object.freeze(animal)
+
+// animal.location = "mala"
+// console.log(animal)
+
+// 6
+// const food = {
+//   name: "Pizza",
+//   price: 500,
+//   size: "lerGe",
+// };
+// Object.seal(food);
+
+// food.price = 400;
+// console.log(food);
