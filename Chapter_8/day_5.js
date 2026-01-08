@@ -99,3 +99,34 @@
 
 // food.price = 400;
 // console.log(food);
+
+// 7
+// const data = { id: 1, status: "active" };
+// Object.freeze(data);
+
+// data.status = "inactive";
+// data.type = "user";
+// console.log(data);
+
+// 8
+// const user = { name: "Sara", age: 20 };
+// Object.seal(user);
+
+// user.age = 21;
+// user.country = "BD";
+// console.log(user);
+
+// 9
+// const car = { brand: "Toyota" };
+// Object.seal(car);
+
+// delete car.brand;
+// console.log(car);
+
+// 10
+// const obj = { a: 1, b: 2 };
+// Object.seal(obj);
+
+// obj.c = 3;
+// console.log(obj);
+
