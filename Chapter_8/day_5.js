@@ -100,7 +100,7 @@
 // food.price = 400;
 // console.log(food);
 
-// 7
+// 7.......
 // const data = { id: 1, status: "active" };
 // Object.freeze(data);
 
