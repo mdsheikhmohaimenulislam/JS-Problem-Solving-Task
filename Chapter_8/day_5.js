@@ -108,7 +108,7 @@
 // data.type = "user";
 // console.log(data);
 
-// 8
+// 8.....
 // const user = { name: "Sara", age: 20 };
 // Object.seal(user);
 
