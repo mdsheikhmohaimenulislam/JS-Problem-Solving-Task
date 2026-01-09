@@ -62,3 +62,41 @@
 //     console.log("Apple")
 // }
 // introduceMyself()
+
+// function doubleIt(number){
+//     const doubled = number * 2
+//     console.log(doubled)
+// }
+// doubleIt(15)
+// doubleIt(88)
+// doubleIt(873)
+
+// function square(number) {
+//   const boRgo = number * number;
+//   console.log("Square of", number, "is:", boRgo);
+// }
+// square(2);
+// square(12)
+//
+
+// function add(num,num2){
+//     const sum = num + num2;
+//     console.log(sum);
+// }
+// add(5,5)
+// add(5,71)
+
+// function addAll(a, b, c, d, e) {
+//   const sum = a + b + c + d + e;
+//   console.log(sum);
+// }
+// addAll(3, 4, 6, 7, 1);
+
+
+// function difference(num,num2){
+//     const difference = num2 - num;
+//     console.log(difference)
+// }
+// const ten = 10;
+// const thirty = 30
+// difference(ten,thirty)
