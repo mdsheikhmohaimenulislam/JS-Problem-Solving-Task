@@ -1,9 +1,10 @@
+// 1..................
 // function jusKHaw() {
 //   console.log("ai now lemon jus!");
 // }
 // jusKHaw();
 
-// 2
+// 2...............
 // function myRoutine() {
 //   console.log("face wash");
 //   console.log("Wearing warm clothes");
