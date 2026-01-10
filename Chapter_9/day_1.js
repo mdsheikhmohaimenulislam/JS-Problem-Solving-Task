@@ -13,7 +13,7 @@
 // }
 // myRoutine();
 
-// 3
+// 3...............
 // function memBer() {
 //   console.log("GrandFather");
 //   console.log("GrandMother");
@@ -30,7 +30,7 @@
 // }
 // memBer()
 
-// 4
+// 4................
 // function taskDone() {
 //   console.log("Eating food");
 //   console.log("Reading a book");
@@ -39,13 +39,13 @@
 // }
 // taskDone();
 
-// 5
+// 5..............
 // function greetMe() {
 //   console.log("Good Morning! Have a great day!");
 // }
 // greetMe()
 
-// 6
+// 6..............
 // function getFavAnime() {
 //   console.log("NarUto");
 //   console.log("One pice");
@@ -53,7 +53,7 @@
 // }
 // getFavAnime()
 
-// 7
+// 7...........
 // function introduceMyself() {
 //     console.log("loi")
 //     console.log("20")
