@@ -14,7 +14,7 @@
 // }
 // myRoutine();
 
-// 3...............
+// 3...................
 // function memBer() {
 //   console.log("GrandFather");
 //   console.log("GrandMother");
@@ -31,7 +31,7 @@
 // }
 // memBer()
 
-// 4................
+// 4..................
 // function taskDone() {
 //   console.log("Eating food");
 //   console.log("Reading a book");
