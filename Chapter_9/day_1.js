@@ -40,13 +40,13 @@
 // }
 // taskDone();
 
-// 5..............
+// 5....................
 // function greetMe() {
 //   console.log("Good Morning! Have a great day!");
 // }
 // greetMe()
 
-// 6..............
+// 6.....................
 // function getFavAnime() {
 //   console.log("NarUto");
 //   console.log("One pice");
@@ -54,7 +54,7 @@
 // }
 // getFavAnime()
 
-// 7...........
+// 7.................
 // function introduceMyself() {
 //     console.log("loi")
 //     console.log("20")
