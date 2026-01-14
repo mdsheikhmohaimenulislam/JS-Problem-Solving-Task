@@ -46,7 +46,7 @@
 // }
 // greetMe()
 
-// 6............................
+// 6.........................0000...
 // function getFavAnime() {
 //   console.log("NarUto");
 //   console.log("One pice");
@@ -54,7 +54,7 @@
 // }
 // getFavAnime()
 
-// 7.......................
+// 7......................0000.
 // function introduceMyself() {
 //     console.log("loi")
 //     console.log("20")
