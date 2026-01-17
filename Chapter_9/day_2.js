@@ -60,19 +60,19 @@
 // const result = gor(20,25,25,20)
 // console.log(result)
 
-// 7
+// 7..............
 // function sellingPrice(costPrice) {
 //   return costPrice + 250;
 // }
 // console.log(sellingPrice(25))
 
-// 8
+// 8...............
 // function age(birth) {
 //   return birth + 100;
 // }
 // console.log(age(2005));
 
-// 9
+// 9...........
 // function wasteInMonth(wasteTime) {
 //   return wasteTime * 30;
 // }
