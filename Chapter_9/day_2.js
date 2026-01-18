@@ -32,47 +32,47 @@
 // }
 // add(20, 15);
 
-// 3
+// 3...........................
 // function exam(a, b, c) {
 //   const result = a + b + c;
 //   console.log(result);
 // }
 // exam(80, 78, 90);
 
-// 4
+// 4............................
 // function age(oldYear, newYear) {
 //   return newYear - oldYear;
 // }
 // const result = age(2008, 2026);
 // console.log(result);
 
-// 5
+// 5........................
 // function vag(law){
 //   const result = law / 2
 //   console.log(result)
 // }
 // vag(175)
 
-// 6
+// 6........................
 // function gor(a,b,c,d){
 //   return a+b+c+d
 // }
 // const result = gor(20,25,25,20)
 // console.log(result)
 
-// 7..............
+// 7.............................
 // function sellingPrice(costPrice) {
 //   return costPrice + 250;
 // }
 // console.log(sellingPrice(25))
 
-// 8...............
+// 8...........................
 // function age(birth) {
 //   return birth + 100;
 // }
 // console.log(age(2005));
 
-// 9...........
+// 9........................
 // function wasteInMonth(wasteTime) {
 //   return wasteTime * 30;
 // }
