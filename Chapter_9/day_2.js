@@ -32,21 +32,21 @@
 // }
 // add(20, 15);
 
-// 3...........................
+// 3...............................................
 // function exam(a, b, c) {
 //   const result = a + b + c;
 //   console.log(result);
 // }
 // exam(80, 78, 90);
 
-// 4............................
+// 4........................................
 // function age(oldYear, newYear) {
 //   return newYear - oldYear;
 // }
 // const result = age(2008, 2026);
 // console.log(result);
 
-// 5........................
+// 5........................................
 // function vag(law){
 //   const result = law / 2
 //   console.log(result)
