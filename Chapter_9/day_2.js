@@ -39,14 +39,14 @@
 // }
 // exam(80, 78, 90);
 
-// 4........................................
+// 4.......................0000.................
 // function age(oldYear, newYear) {
 //   return newYear - oldYear;
 // }
 // const result = age(2008, 2026);
 // console.log(result);
 
-// 5........................................
+// 5..........................0000..............
 // function vag(law){
 //   const result = law / 2
 //   console.log(result)
