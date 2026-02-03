@@ -1,4 +1,4 @@
-// // 1......hhhhggvgvg
+// // 1......hhhhggvg
 // console.log(7 > 5);
 
 // // 2.
