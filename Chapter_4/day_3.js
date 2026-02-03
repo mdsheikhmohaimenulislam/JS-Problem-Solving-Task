@@ -1,22 +1,22 @@
-// // 1......
+// // 1......hhhhggvgvg
 // console.log(7 > 5);
 
 // // 2.
 // console.log(45 > 50);
 
-// // 3.
+// // 3.,.......
 // console.log(75 == 75);
 
 // // 4.
 // console.log(100 ==  75);
 
-// // 5.
+// // 5...........
 // console.log(10 != 7);
 
-// // 6.
+// // 6.........
 // console.log(20 != 15)
 
-// // 7.
+// // 7........
 // console.log(45 != 97)
 
 // console.log(false != false)
