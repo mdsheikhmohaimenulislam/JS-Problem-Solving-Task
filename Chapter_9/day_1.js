@@ -4,7 +4,7 @@
 // }
 // jusKHaw();
 
-// 2...........🫣🫣🫣jっhbv....
+// 2...........🫣🫣🫣jっh........bv....
 // function myRoutine() {
 //   console.log("face wash");
 //   console.log("Wearing warm clothes");
@@ -14,7 +14,7 @@
 // }
 // myRoutine();
 
-// 3...................
+// 3........................
 // function memBer() {
 //   console.log("GrandFather");
 //   console.log("GrandMother");
