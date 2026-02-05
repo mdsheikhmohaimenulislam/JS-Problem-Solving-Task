@@ -161,7 +161,7 @@
 //   console.log(i, result);
 // }
 
-//*..........Practice.........................
+//*......,......,....Practice.........................
 
 // const book = {
 //     name:"Loi Series",
