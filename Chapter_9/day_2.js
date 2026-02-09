@@ -32,14 +32,14 @@
 // }
 // add(20, 15);
 
-// 3...........................222fffdddd000ddd000......00....................
+// 3...........................222fffddd cccd000ddd000......00....................
 // function exam(a, b, c) {
 //   const result = a + b + c;
 //   console.log(result);
 // }
 // exam(80, 78, 90);
 
-// 4....................................dddfddddff000.....dddd000...........
+// 4....................................dddfddddff000..ccc...dddd000...........
 // function age(oldYear, newYear) {
 //   return newYear - oldYear;
 // }
