@@ -39,7 +39,7 @@
 // }
 // exam(80, 78, 90);
 
-// 4....................................dddfdddddddddff000..cc000c...00000dddd000...........
+// 4....................................dddfddd  ddddddff000..cc000c...00  000dddd000...........
 // function age(oldYear, newYear) {
 //   return newYear - oldYear;
 // }
