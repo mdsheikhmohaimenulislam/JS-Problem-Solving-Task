@@ -507,3 +507,38 @@ const article = {
 
 // const arr = [{ x: 1 }, { x: 2 }];
 // arr.forEach((item) => console.log(item.x));
+
+// const library = {
+//   name: "City Library",
+//   established: 1995,
+//   books: {
+//     science: [
+//       { title: "Physics Basics", copies: 12 },
+//       { title: "Chemistry Guide", copies: 7 },
+//     ],
+//     literature: [
+//       { title: "Shakespeare Works", copies: 5 },
+//       { title: "Modern Poems", copies: 9 },
+//     ],
+//   },
+//   location: {
+//     city: "Dhaka",
+//     area: "Banani",
+//     coordinates: {
+//       lat: 23.7806,
+//       long: 90.4142,
+//     },
+//   },
+// };
+
+// function printValue(object) {
+//   for (const key in object) {
+//     if (typeof object[key] === "object") {
+//       printValue(object[key])
+//     }else{
+//       console.log(key, object[key]);
+//     }
+//   }
+
+// }
+// printValue(library);
