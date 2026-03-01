@@ -59,4 +59,4 @@
 // }
 // console.log(isOdd(10))
 // console.log(isOdd(9))
-// ........dddd....
+// ........dddd...dddd.
