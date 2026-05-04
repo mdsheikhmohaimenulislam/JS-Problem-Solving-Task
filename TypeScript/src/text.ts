@@ -81,14 +81,35 @@ const squareArray = arr.map((elem: number): number => elem * elem);
 
 // Task 2: Merging User Profiles
 
-type Person = { name: string; age: number };
-type JobDetails = { role: string; salary: number };
+// type Person = { name: string; age: number };
+// type JobDetails = { role: string; salary: number };
 
-type Employee = Person & JobDetails;
+// type Employee = Person & JobDetails;
 
-function getProfile(employee: Employee) {
-  const { name, role } = employee;
-  return `name: ${name}  role: ${role} `;
+// function getProfile(employee: Employee) {
+//   const { name, role } = employee;
+//   return `name: ${name}  role: ${role} `;
+// }
+
+// console.log(getProfile({ name: "loi", role: "dev", age: 22, salary: 500 }));
+
+// Task 3: The "Safe" Data Fetcher
+// 💡 Real-world connection
+// এই pattern তুমি API response এ সবসময় দেখবে:
+// data?.user?.profile?.email ?? "not found"
+
+type UserResponse = {
+  info?: {
+    address?: {
+      zipCode?: string;
+    };
+  };
+};
+
+function getZipCode(userResponse: UserResponse) {
+  return userResponse.info?.address?.zipCode ?? "00000";
 }
 
-console.log(getProfile({ name: "loi", role: "dev", age: 22, salary: 500 }));
+// const result = getZipCode({info:{address:{zipCode:"1100"}}});
+const result = getZipCode({});
+// console.log(result);
