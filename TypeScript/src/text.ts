@@ -125,3 +125,28 @@ const upperValue = secretValue as string;
 
 
 // Task 5: Generic Constraints
+
+function logLength<T extends {length:number}>(input:T){
+    return input.length
+}
+
+console.log(logLength({length:55}));
+
+
+//!.............................................
+// Generics
+function identity<T>(value:T){
+return value;
+}
+const paracetamol = identity("Napa")
+console.log(typeof paracetamol);
+
+// generics with interface
+interface IApiRes<TLLM> {
+success: boolean;
+data: TLLM;
+}
+const res: IApiRes<string[]> = {
+success: true,
+data: ["rice", "oil"],
+};
