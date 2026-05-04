@@ -113,3 +113,15 @@ function getZipCode(userResponse: UserResponse) {
 // const result = getZipCode({info:{address:{zipCode:"1100"}}});
 const result = getZipCode({});
 // console.log(result);
+
+// Task 4: Type Assertion
+
+let secretValue: unknown = "typescript is awesome";
+
+const upperValue = secretValue as string;
+// const upperValue = (secretValue as string).toUpperCase();
+
+// console.log(upperValue.toUpperCase());
+
+
+// Task 5: Generic Constraints
