@@ -123,23 +123,33 @@ const upperValue = secretValue as string;
 
 // console.log(upperValue.toUpperCase());
 
-
 // Task 5: Generic Constraints
 
-function logLength<T extends {length:number}>(input:T){
-    return input.length
+function logLength<T extends { length: number }>(input: T) {
+  return input.length;
 }
 
 // console.log(logLength({length:55}));
 
-
 // Task 6: The Property Guard
 const product1 = { id: 101, name: "Keyboard", price: 50 };
 
-function getProductProp<T, K extends keyof T>(obj:T,key:K){
+function getProductProp<T, K extends keyof T>(obj: T, key: K) {
   return obj[key];
-
 }
 
-const result1 = getProductProp(product1, "id")
-console.log(result1);
+const result1 = getProductProp(product1, "id");
+// console.log(result1);
+
+// Task 7: Constant Literal Types
+const Colors = {
+  Primary: "RED",
+  Secondary: "BLUE",
+} as const;
+
+type ValidColor = typeof Colors[keyof typeof Colors];
+
+function setColo(c:ValidColor){
+  return c
+}
+// console.log(setColo("BLUE"));
