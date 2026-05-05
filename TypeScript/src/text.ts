@@ -147,9 +147,25 @@ const Colors = {
   Secondary: "BLUE",
 } as const;
 
-type ValidColor = typeof Colors[keyof typeof Colors];
+type ValidColor = (typeof Colors)[keyof typeof Colors];
 
-function setColo(c:ValidColor){
-  return c
+function setColo(c: ValidColor) {
+  return c;
 }
 // console.log(setColo("BLUE"));
+
+// Task 8: The "Draft" Mode
+interface MyDocument {
+  title: string;
+  content: string;
+  author: string;
+}
+
+type ReadonlyAndOptional<T> = { readonly [k in keyof T]?: T[k] };
+
+const result2: ReadonlyAndOptional<MyDocument> = {
+  title: "Readonly And Optional",
+  content: "Task",
+  author: "Loi",
+};
+// console.log(result2);
