@@ -130,23 +130,16 @@ function logLength<T extends {length:number}>(input:T){
     return input.length
 }
 
-console.log(logLength({length:55}));
+// console.log(logLength({length:55}));
 
 
-//!.............................................
-// Generics
-function identity<T>(value:T){
-return value;
+// Task 6: The Property Guard
+const product1 = { id: 101, name: "Keyboard", price: 50 };
+
+function getProductProp<T, K extends keyof T>(obj:T,key:K){
+  return obj[key];
+
 }
-const paracetamol = identity("Napa")
-console.log(typeof paracetamol);
 
-// generics with interface
-interface IApiRes<TLLM> {
-success: boolean;
-data: TLLM;
-}
-const res: IApiRes<string[]> = {
-success: true,
-data: ["rice", "oil"],
-};
+const result1 = getProductProp(product1, "id")
+console.log(result1);
