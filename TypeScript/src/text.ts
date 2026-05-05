@@ -169,3 +169,21 @@ const result2: ReadonlyAndOptional<MyDocument> = {
   author: "Loi",
 };
 // console.log(result2);
+
+
+//! Task 9: The Wrapper
+type Data = number
+
+type DataType<T> = T extends any[]?"Large":"Small";
+const value:DataType<Data> = "Small";
+
+// console.log(value);
+
+// !
+
+function getData(input:any | any[]){
+  return Array.isArray(input)? "Large":"Small"
+}
+
+// console.log(getData([33,33]));
+//! 
