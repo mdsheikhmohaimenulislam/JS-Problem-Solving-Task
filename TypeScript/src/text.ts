@@ -170,13 +170,13 @@ const result2: ReadonlyAndOptional<MyDocument> = {
 };
 // console.log(result2);
 
-//! Task 9: The Wrapper
+//!........................................ Task 9: The Wrapper........................................
 type Data = number;
 
 type DataType<T> = T extends any[] ? "Large" : "Small";
 const value: DataType<Data> = "Small";
 
-// console.log(value);
+console.log(value);
 
 // !
 
@@ -199,4 +199,4 @@ const userProfile: PublicUser = {
   id: 3,
   username: "oi",
 };
-console.log(userProfile);
+// console.log(userProfile);
