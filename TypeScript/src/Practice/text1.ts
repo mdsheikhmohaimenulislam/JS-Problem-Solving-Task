@@ -71,3 +71,58 @@ const getUserInfo = (user: NormalUser | AdminUser) => {
 
 // getUserInfo({name:"ruhi",role:"Admin"})
 
+//?  Type guard using instance of / type narrowing
+class Person {
+  name: string;
+
+  constructor(name: string) {
+    this.name = name;
+  }
+
+  getSleep(sleepTime: number) {
+    console.log(`${this.name} every day sleeping time ${sleepTime}`);
+  }
+}
+
+class Student1 extends Person {
+  constructor(name: string) {
+    super(name);
+  }
+
+  doStudy(numberOfTime: number) {
+    console.log(`${this.name} every day study time ${numberOfTime}`);
+  }
+}
+
+class Teacher2 extends Person {
+  constructor(name: string) {
+    super(name);
+  }
+
+  takeClass(inClassTime: number) {
+    console.log(`${this.name} tech in student time ${inClassTime} hour`);
+  }
+}
+
+//  function  student & teacher
+const isStudent = (user: Person) => {
+  return user instanceof Student1;
+};
+const isTeacher = (user: Person) => {
+  return user instanceof Teacher2;
+};
+
+const getUser = (user: Person) => {
+  if (isStudent(user)) {
+    user.doStudy(2);
+  } else if (isTeacher(user)) {
+    user.takeClass(1);
+  } else {
+    user.getSleep(8);
+  }
+};
+
+const student2 = new Student("Sezumi", "dhaka", 21);
+const Teacher3 = new Teacher2("soni");
+getUser(student2);
+getUser(Teacher3);
