@@ -1,43 +1,43 @@
-class BankAccount {
-  readonly userId: number;
-  userName: String;
-  protected _userBalance: number;
+// class BankAccount {
+//   readonly userId: number;
+//   userName: String;
+//   protected _userBalance: number;
 
-  constructor(userId: number, userName: string, userBalance: number) {
-    this.userId = userId;
-    this.userName = userName;
-    this._userBalance = userBalance;
-  }
+//   constructor(userId: number, userName: string, userBalance: number) {
+//     this.userId = userId;
+//     this.userName = userName;
+//     this._userBalance = userBalance;
+//   }
 
-  // addBalance(addMoney: number) {
-  //   //? this.userBalance = this.userBalance + addMoney;
-  //   this._userBalance += addMoney;
-  //   return this._userBalance;
-  // }
+//   // addBalance(addMoney: number) {
+//   //   //? this.userBalance = this.userBalance + addMoney;
+//   //   this._userBalance += addMoney;
+//   //   return this._userBalance;
+//   // }
 
-  // Setter use kore korta chai
-  set addBalance(amount: number) {
-    this._userBalance = this._userBalance + amount;
-  }
+//   // Setter use kore korta chai
+//   set addBalance(amount: number) {
+//     this._userBalance = this._userBalance + amount;
+//   }
 
-  // get korBo
-  // getBlance() {
-  //   return this._userBalance;
-  // }
+//   // get korBo
+//   // getBlance() {
+//   //   return this._userBalance;
+//   // }
 
-  // getter use kore get korta chai
-  get getBalance() {
-    return this._userBalance;
-  }
-}
-
-// class StudentAccount extends BankAccount {
-//   test(){
-//     this._userBalance
+//   // getter use kore get korta chai
+//   get getBalance() {
+//     return this._userBalance;
 //   }
 // }
 
-const shaFi = new BankAccount(101, "ShaFi", 500);
+// // class StudentAccount extends BankAccount {
+// //   test(){
+// //     this._userBalance
+// //   }
+// // }
+
+// const shaFi = new BankAccount(101, "ShaFi", 500);
 // console.log(shaFi.addBalance(500));
 // console.log(shaFi.getBlance());
 
@@ -171,4 +171,36 @@ class shaFiPlayer extends MusicPlay {
 }
 
 const shaFiPlayer1 = new shaFiPlayer();
-shaFiPlayer1.play()
+// shaFiPlayer1.play()
+
+//? 3-10 Encapsulation, the 4th pillar of OOP....................
+class BankAccount {
+  readonly userId: number;
+  userName: string;
+
+  protected _userBalance: number;
+
+  constructor(userId: number, userName: string, userBalance: number) {
+    this.userId = userId;
+    this.userName = userName;
+    this._userBalance = userBalance;
+  }
+
+  private set addBalance(amount: number) {
+    this._userBalance = this._userBalance + amount;
+  }
+
+  callHiddenMethod(balance: number) {
+    this.addBalance = balance; // 
+  }
+
+  get getBalance() {
+    return this._userBalance;
+  }
+}
+
+const shaFi = new BankAccount(101, "ShaFi", 500);
+
+shaFi.callHiddenMethod(200);
+
+// console.log(shaFi.getBalance);
