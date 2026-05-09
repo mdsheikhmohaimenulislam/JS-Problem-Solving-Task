@@ -152,23 +152,23 @@ const shape3 = new Rectangle(10, 20);
 
 //? beteR method abstraction....
 // idea..
-// abstract class MusicPlay {
-//   abstract play(): void;
-//   abstract pause(): void;
-//   abstract stop(): void;
-// }
-// // implementation..
-// class shaFiPlayer extends MusicPlay {
-//   play() {
-//     console.log(`Playing music......`);
-//   }
-//   pause() {
-//     console.log(`Pause music......`);
-//   }
-//   stop() {
-//     console.log(`Stop music.............`);
-//   }
-// }
+abstract class MusicPlay {
+  abstract play(): void;
+  abstract pause(): void;
+  abstract stop(): void;
+}
+// implementation..
+class shaFiPlayer extends MusicPlay {
+  play() {
+    console.log(`Playing music......`);
+  }
+  pause() {
+    console.log(`Pause music......`);
+  }
+  stop() {
+    console.log(`Stop music.............`);
+  }
+}
 
-// const shaFiPlayer1 = new shaFiPlayer();
-// shaFiPlayer1.play()
+const shaFiPlayer1 = new shaFiPlayer();
+shaFiPlayer1.play()
