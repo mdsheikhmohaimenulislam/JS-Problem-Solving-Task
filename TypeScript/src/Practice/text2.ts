@@ -123,6 +123,52 @@ const getArea = (param: Shape) => {
 const shape1 = new Shape();
 const shape2 = new Circle(10);
 const shape3 = new Rectangle(10, 20);
-getArea(shape1);
-getArea(shape2);
-getArea(shape3);
+// getArea(shape1);
+// getArea(shape2);
+// getArea(shape3);
+
+//? 3-9 abstraction, the 3rd pillar of OOP......................
+// idea
+// interface MediaPlay {
+//   play(): void;
+//   pause(): void;
+//   stop(): void;
+// }
+// // implementation..
+// class MusicPlay implements MediaPlay {
+//   play() {
+//     console.log(`Playing music......`);
+//   }
+//   pause() {
+//     console.log(`Pause music......`);
+//   }
+//   stop() {
+//     console.log(`Stop music.............`);
+//   }
+// }
+
+// const shaFiPlayer = new MusicPlay();
+// shaFiPlayer.play()
+
+//? beteR method abstraction....
+// idea..
+// abstract class MusicPlay {
+//   abstract play(): void;
+//   abstract pause(): void;
+//   abstract stop(): void;
+// }
+// // implementation..
+// class shaFiPlayer extends MusicPlay {
+//   play() {
+//     console.log(`Playing music......`);
+//   }
+//   pause() {
+//     console.log(`Pause music......`);
+//   }
+//   stop() {
+//     console.log(`Stop music.............`);
+//   }
+// }
+
+// const shaFiPlayer1 = new shaFiPlayer();
+// shaFiPlayer1.play()
