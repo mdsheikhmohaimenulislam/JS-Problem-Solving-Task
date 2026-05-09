@@ -56,7 +56,7 @@ const shaFi = new BankAccount(101, "ShaFi", 500);
 
 // Static
 class Counters {
-static count: number = 0;
+  static count: number = 0;
 
   increment() {
     return (Counters.count = Counters.count + 1);
@@ -67,15 +67,62 @@ static count: number = 0;
   }
 }
 
-const instancel1 = new Counters()
-console.log(instancel1.increment());
+const instancel1 = new Counters();
+// console.log(instancel1.increment());
 
+const instancel2 = new Counters();
+// console.log(instancel2.increment());
 
-const instancel2 = new Counters()
-console.log(instancel2.increment());
-
-const instancel3 = new Counters()
-console.log(instancel3.increment());
+const instancel3 = new Counters();
+// console.log(instancel3.increment());
 
 // static method
-console.log(Counters.decrement());
+// console.log(Counters.decrement());
+
+//? Polymorphism the 2nd pillar of OOp.....
+class Shape {
+  getArea(): number {
+    return 0;
+  }
+}
+
+class Circle extends Shape {
+  // area = pi*r*r
+  radius: number;
+
+  constructor(radius: number) {
+    super();
+    this.radius = radius;
+  }
+
+  getArea(): number {
+    return Math.PI * this.radius * this.radius;
+  }
+}
+
+class Rectangle extends Shape {
+  // area = height* width
+  height: number;
+  width: number;
+
+  constructor(height: number, width: number) {
+    super();
+    this.height = height;
+    this.width = width;
+  }
+  getArea(): number {
+    return this.height * this.width;
+  }
+}
+
+const getArea = (param: Shape) => {
+  param.getArea();
+  console.log(param.getArea());
+};
+
+const shape1 = new Shape();
+const shape2 = new Circle(10);
+const shape3 = new Rectangle(10, 20);
+getArea(shape1);
+getArea(shape2);
+getArea(shape3);
