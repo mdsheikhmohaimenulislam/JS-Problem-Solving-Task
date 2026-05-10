@@ -137,10 +137,10 @@ const shape3 = new Rectangle(10, 20);
 // // implementation..
 // class MusicPlay implements MediaPlay {
 //   play() {
-//     console.log(`Playing music......`);
+//     console.log(`Playing music............`);
 //   }
 //   pause() {
-//     console.log(`Pause music......`);
+//     console.log(`Pause music.............`);
 //   }
 //   stop() {
 //     console.log(`Stop music.............`);
@@ -160,20 +160,20 @@ abstract class MusicPlay {
 // implementation..
 class shaFiPlayer extends MusicPlay {
   play() {
-    console.log(`Playing music......`);
+    console.log(`Playing music............`);
   }
   pause() {
-    console.log(`Pause music......`);
+    console.log(`Pause music.............`);
   }
   stop() {
-    console.log(`Stop music.............`);
+    console.log(`Stop music................`);
   }
 }
 
 const shaFiPlayer1 = new shaFiPlayer();
 // shaFiPlayer1.play()
 
-//? 3-10 Encapsulation, the 4th pillar of OOP....................
+//? 3-10 Encapsulation, the 4th pillar of OOP.........................
 class BankAccount {
   readonly userId: number;
   userName: string;
