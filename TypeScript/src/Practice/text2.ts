@@ -79,7 +79,7 @@ const instancel3 = new Counters();
 // static method
 // console.log(Counters.decrement());
 
-//? Polymorphism the 2nd pillar of OOp.....
+//? Polymorphism the 2nd pillar of OOp.....dddd
 class Shape {
   getArea(): number {
     return 0;
