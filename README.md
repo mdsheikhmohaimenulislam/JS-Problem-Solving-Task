@@ -70,6 +70,7 @@ user@hostname:~/my-repo (main)$
 
 This indicates that the user is inside the my-repo directory and currently on the main branch.
 
+
 ### License
 This script is open-source and free to use. Feel free to modify and share it!
 
