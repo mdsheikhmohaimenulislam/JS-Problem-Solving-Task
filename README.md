@@ -1,7 +1,6 @@
 # Show Git Branch Name in Terminal
 
 This guide helps you modify your Ubuntu/Linux terminal prompt to display the current Git branch name when inside a Git repository.
-
 #  Steps to Enable Git Branch Display in Terminal
 Follow these steps to modify your ~/.bashrc file and enable Git branch display in your terminal prompt:
 
