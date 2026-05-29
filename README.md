@@ -1,4 +1,3 @@
-
 # Show Git Branch Name in Terminal
 
 This guide helps you modify your Ubuntu/Linux terminal prompt to display the current Git branch name when inside a Git repository.
