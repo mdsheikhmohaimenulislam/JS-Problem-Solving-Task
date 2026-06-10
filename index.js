@@ -43,7 +43,7 @@ function uniqueArr(arr) {
 
 uniqueArr([1, 2, 2, 3, 4, 4]);
 
-// Problem 6: Sum of All Numbers in an Array
+// Problem 6: Sum of All Numbers in an Array................
 
 function sum(number) {
   let s = 0;
