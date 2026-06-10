@@ -5,7 +5,7 @@ function add(name) {
 
 console.log(add("hello"));
 
-// Problem 2: Count Vowels in a String
+// Problem 2: Count Vowels in a String................
 
 function myStr1(myStr) {
   let vowels = /[aeiou]/g;
