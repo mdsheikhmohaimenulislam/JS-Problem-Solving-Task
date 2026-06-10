@@ -14,7 +14,7 @@ function myStr1(myStr) {
 }
 console.log(myStr1("programming"));
 
-// Problem 3: Check for Palindrome
+// Problem 3: Check for Palindrome................
 
 const revValue = (name) => {
   const myRevName = name.split("").reverse().join("");
