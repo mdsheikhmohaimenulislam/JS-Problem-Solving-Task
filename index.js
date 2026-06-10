@@ -25,7 +25,7 @@ const revValue = (name) => {
 revValue("madam");
 revValue("hello");
 
-// Problem 4: Find the Maximum Number
+// Problem 4: Find the Maximum Number....................
 
 const bigValue = (array) => {
   const value = Math.max(...array);
