@@ -21,3 +21,16 @@ CREATE TABLE Matches (
 
     check(match_status in ('Available','Selling Fast','Sold Out','Postponed'))
 );
+
+CREATE TABLE Bookings (
+    booking_id serial primary key,
+    user_id int not null references users (user_id),
+    match_id int not null references matches (match_id),
+    seat_number varchar(30),
+    payment_status varchar(50),
+    total_cost decimal(10,2) not null,
+
+    unique (match_id, seat_number),
+    check(payment_status in ('Pending','Confirmed','Cancelled','Refunded')),
+    check(total_cost >= 0) 
+);
