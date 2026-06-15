@@ -11,3 +11,13 @@ CREATE TABLE Users (
    unique(email),
    check(role in ('Ticket Manager','Football Fan'))
 );
+
+CREATE TABLE Matches (
+    match_id serial primary key,
+    fixture varchar(300) not null,
+    tournament_category varchar(200) not null,
+    base_ticket_price decimal(10,2) not null,
+    match_status varchar(200) not null,
+
+    check(match_status in ('Available','Selling Fast','Sold Out','Postponed'))
+);
