@@ -152,3 +152,69 @@ end;
 $$
 
 call delete_emp_byid(6);
+
+
+
+
+create procedure increase_low_salary(deparment_name varchar(50))
+language plpgsql
+as
+$$
+  declare
+  avg_salary int;
+  begin
+  -- first step
+  select avg(salary) from employees
+  where deparment_name = deparment_name;
+
+
+
+  -- second step
+  update employees set salary = salary * 1.1
+  where deparment_name = deparment_name and salary < avg_salary;
+  end;
+$$
+
+
+call increase_low_salary('Customer Support')
+
+
+
+-- 16-8 Trigger Example
+create function
+delete_emp_id (emp_id int) returns void language sql as $$
+delete from employees where employee_id = emp_id
+$$
+
+
+create table employee_logs (
+id serial primary key,
+emp_name varchar(100),
+action varchar(25),
+action_time timestamp default now()
+)
+
+create trigger save_employee_delete_logs
+after delete
+on employees
+for each row
+execute function log_employee_deletion()
+
+ create function
+delete_emp_id (emp_id int) returns void language sql as $$
+delete from employees where employee_id = emp_id
+$$ 
+
+
+create function log_employee_deletion()
+returns trigger
+language plpgsql
+as
+$$
+begin
+  insert into employee_logs (emp_name, action) values (old.employee_name,'delete');
+  return old;
+end;
+$$
+
+call delete_emp_byid(7);
