@@ -141,3 +141,14 @@ delete from employees where  employee_id = emp_id
 $$
 SELECT
   delete_emp_id (7)
+
+
+  -- 16-6 Procedure Example 1
+create procedure
+delete_emp_byid (emp_id int) language plpgsql as $$
+begin
+  delete from employees where  employee_id = emp_id;
+end;
+$$
+
+call delete_emp_byid(6);
