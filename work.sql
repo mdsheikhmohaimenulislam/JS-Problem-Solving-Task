@@ -11,3 +11,18 @@ CREATE TABLE departments (
   department_id SERIAL PRIMARY KEY,
   department_name varchar(50)
 )
+
+
+INSERT INTO
+  departments (department_name)
+VALUES
+  ('HR'),
+  ('Marketing'),
+  ('Finance'),
+  ('IT'),
+  ('Sales'),
+  ('Engineering'),
+  ('Customer Support'),
+  ('Administration'),
+  ('Research'),
+  ('Quality Assurance');
