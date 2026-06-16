@@ -40,3 +40,32 @@ VALUES
   ('Sara Brown', 6, 70666.00, '2021-09-28'),
   ('Mike Miller', 7, 55000.75, '2022-02-05');
 
+
+
+SELECT
+  *
+FROM
+  departments AS d
+  INNER JOIN employees AS e ON d.department_id = e.department_id
+  -- same name thakle  using
+SELECT
+  *
+FROM
+  employees
+  INNER JOIN departments USING (department_id)
+SELECT
+  d.department_name,
+  round(avg(e.salary)) AS avg_salary
+FROM
+  employees AS e
+  INNER JOIN departments AS d ON e.department_id = d.department_id
+GROUP BY
+  d.department_name
+SELECT
+  department_name,
+  count(*)
+FROM
+  employees
+  INNER JOIN departments USING (department_id)
+GROUP BY
+  department_name
