@@ -6,3 +6,8 @@ CREATE TABLE employees (
   salary decimal(10, 2),
   hire_date DATE
 )
+
+CREATE TABLE departments (
+  department_id SERIAL PRIMARY KEY,
+  department_name varchar(50)
+)
