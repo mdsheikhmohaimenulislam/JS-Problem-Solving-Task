@@ -69,3 +69,64 @@ FROM
   INNER JOIN departments USING (department_id)
 GROUP BY
   department_name
+
+
+ -- Show Department Name with biger Average Salary:
+SELECT
+  department_name,
+  round(avg(salary)) AS avg_salary
+FROM
+  employees
+  INNER JOIN departments USING (department_id)
+GROUP BY
+  department_name
+ORDER BY
+  (avg_salary) DESC
+LIMIT
+  1
+SELECT
+  extract(
+    YEAR
+    FROM
+      hire_date
+  ) AS hire_year,
+  count(*)
+FROM
+  employees
+GROUP BY
+  hire_year
+SELECT
+  *
+FROM
+  employees
+WHERE
+  salary = (
+    SELECT
+      max(salary)
+    FROM
+      employees
+  )
+SELECT
+  *
+FROM
+  employees
+WHERE
+  salary > (
+    SELECT
+      avg(salary)
+    FROM
+      employees
+  )
+SELECT
+  *
+FROM
+  employees
+WHERE
+  salary = (
+    SELECT
+      max(salary)
+    FROM
+      employees
+    WHERE
+      department_name = 'H'
+  )
