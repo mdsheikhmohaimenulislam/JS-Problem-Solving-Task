@@ -182,8 +182,8 @@ call increase_low_salary('Customer Support')
 
 -- 16-8 Trigger Example
 create function
-delete_emp_id (emp_id int) returns void language sql as $$
-delete from employees where employee_id = emp_id
+delete_emp_id2(emp_id int) returns void language sql as $$
+delete from employees where employee_id = emp_id;
 $$
 
 
@@ -200,11 +200,6 @@ on employees
 for each row
 execute function log_employee_deletion()
 
- create function
-delete_emp_id (emp_id int) returns void language sql as $$
-delete from employees where employee_id = emp_id
-$$ 
-
 
 create function log_employee_deletion()
 returns trigger
@@ -217,4 +212,4 @@ begin
 end;
 $$
 
-call delete_emp_byid(7);
+select delete_emp_id2(6);
