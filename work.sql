@@ -26,3 +26,17 @@ VALUES
   ('Administration'),
   ('Research'),
   ('Quality Assurance');
+
+
+
+INSERT INTO
+  employees (employee_name, department_id, salary, hire_date)
+VALUES
+  ('John Doe', 1, 60000.00, '2022-01-10'),
+  ('Jane Smith', 2, 75868.56, '2021-05-22'),
+  ('Bob Johnson', 3, 80000.75, '2020-11-15'),
+  ('Alice Williams', 4, 90000.25, '2019-08-03'),
+  ('David Lee', 5, 65000.50, '2020-03-18'),
+  ('Sara Brown', 6, 70666.00, '2021-09-28'),
+  ('Mike Miller', 7, 55000.75, '2022-02-05');
+
