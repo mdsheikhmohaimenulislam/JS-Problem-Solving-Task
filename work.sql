@@ -130,3 +130,14 @@ WHERE
     WHERE
       department_name = 'H'
   )
+
+
+  -- 16-5 Functions Explained
+CREATE FUNCTION emp_count () returns int language sql $$
+ select count(*) from employees
+  $$ selecte emp_count ()
+CREATE FUNCTION delete_emp_id (emp_id int) returns void language sql AS $$
+delete from employees where  employee_id = emp_id  
+$$
+SELECT
+  delete_emp_id (7)
