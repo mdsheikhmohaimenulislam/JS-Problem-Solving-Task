@@ -120,3 +120,28 @@ select  avg(price) from books
 $$
 
 select book_avg_price()
+
+-- Function to delete a book by id
+create function book_deleted_in_funtion(bookId int)
+returns void
+language sql
+  as
+$$
+  delete from books where book_id  = bookId 
+$$
+
+select book_deleted_in_funtion(11)
+
+
+-- Procedures
+-- Create procedure to delete a book by id
+create procedure delete_book_id_by(id int)
+language plpgsql
+as
+$$
+  begin
+  delete from books where book_id  = id;
+  end;
+$$
+
+call delete_book_id_by(12)
