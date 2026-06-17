@@ -145,3 +145,57 @@ $$
 $$
 
 call delete_book_id_by(12)
+
+
+
+-- Create procedure to update stock based on category and stock condition
+create procedure update_stock(b_category varchar, b_stock int)
+language plpgsql
+as
+$$
+  declare
+  total_book int;
+  begin
+  select count(stock) into total_book from books
+  where category = b_category and total_book < b_stock;
+
+  update books set stock = stock + 100
+  where category = b_category and total_book < b_stock;
+  end;
+$$
+
+call update_stock('Fiction',30);
+
+
+-- -Trigger section
+-- Create a Log table to store deleted book records
+CREATE TABLE books_log (
+    id SERIAL PRIMARY KEY,
+    book_name TEXT,
+    action VARCHAR(255)
+);
+
+-- Create a trigger that runs AFTER DELETE on books table
+create trigger save_logs
+after delete
+on books
+for each row
+execute function logs()
+
+-- Create a trigger function Lags()
+create function Logs()
+returns trigger
+Language plpgsql
+as
+$$
+begin
+  insert into books_Log (book_name,action) values(old.book_name, 'delete');
+  return old;
+end;
+$$
+
+delete from books where book_id=5
+
+-- trigger deleted 
+DROP TRIGGER IF EXISTS save logs of books;
+DROP FUNCTION IF EXISTS logs();
