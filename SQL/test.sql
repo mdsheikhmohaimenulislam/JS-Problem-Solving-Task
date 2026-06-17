@@ -43,3 +43,16 @@ select * from orders
 -- - LEFT JOIN
 select * from users
 left join orders on orders.user_id = users.id
+
+
+select * from users
+right join orders on orders.user_id = users.id
+
+-- cross join
+
+select * from users
+cross join orders 
+
+
+select * from users
+natural join orders
