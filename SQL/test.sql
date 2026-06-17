@@ -34,3 +34,12 @@ VALUES
 ('Keyboard', 3),
 ('Phone', 4),
 ('Calculator', 2);
+
+
+select *  from users
+
+select * from orders
+
+-- - LEFT JOIN
+select * from users
+left join orders on orders.user_id = users.id
