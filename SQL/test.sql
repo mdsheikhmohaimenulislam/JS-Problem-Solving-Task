@@ -63,3 +63,12 @@ select * from books
 where price = (
   select max(price) from books
 )
+
+  
+-- Which book has the second highest price?
+-- Nested sub querys
+select * from books
+where price = (
+  select max(price) from books
+  where price < (select max(price) from books)
+)
