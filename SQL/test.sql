@@ -105,3 +105,18 @@ VALUES
 ('Atomic Habits', 'James Clear', 'Self Help', 350.00, 25, 2018),
 ('Rich Dad Poor Dad', 'Robert Kiyosaki', 'Finance', 300.00, 20, 1997),
 ('The Alchemist', 'Paulo Coelho', 'Fiction', 280.00, 12, 1988);
+
+
+
+-- Functions
+-- -Create function to calculate average price of books
+
+create function book_avg_price()
+returns int
+language sql
+as
+$$
+select  avg(price) from books  
+$$
+
+select book_avg_price()
