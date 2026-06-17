@@ -56,3 +56,10 @@ cross join orders
 
 select * from users
 natural join orders
+
+
+-- sub query
+select * from books
+where price = (
+  select max(price) from books
+)
