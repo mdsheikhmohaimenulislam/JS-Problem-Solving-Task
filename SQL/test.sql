@@ -72,3 +72,36 @@ where price = (
   select max(price) from books
   where price < (select max(price) from books)
 )
+
+
+  
+-- Which books have a price higher than the average price?
+-- avg sub queres
+select * from books
+where price > (select avg(price) from books)
+
+
+CREATE TABLE books (
+    book_id SERIAL PRIMARY KEY,
+    book_name VARCHAR(100) NOT NULL,
+    author_name VARCHAR(100) NOT NULL,
+    category VARCHAR(50),
+    price DECIMAL(10,2),
+    stock INT,
+    published_year INT
+);
+
+INSERT INTO books (
+    book_name,
+    author_name,
+    category,
+    price,
+    stock,
+    published_year
+)
+VALUES
+('Harry Potter', 'J.K. Rowling', 'Fantasy', 500.00, 15, 1997),
+('The Hobbit', 'J.R.R. Tolkien', 'Fantasy', 450.00, 10, 1937),
+('Atomic Habits', 'James Clear', 'Self Help', 350.00, 25, 2018),
+('Rich Dad Poor Dad', 'Robert Kiyosaki', 'Finance', 300.00, 20, 1997),
+('The Alchemist', 'Paulo Coelho', 'Fiction', 280.00, 12, 1988);
