@@ -196,6 +196,6 @@ $$
 
 delete from books where book_id=5
 
--- trigger deleted 
+-- trigger deleted ......
 DROP TRIGGER IF EXISTS save logs of books;
 DROP FUNCTION IF EXISTS logs();
