@@ -69,4 +69,4 @@ const fraction3 = "42.45689754"
 const result1 = parseFloat(fraction3).toFixed(3);
 console.log(parseFloat(result1))
 
-// ,,,,,,,,,,,,,,,,,,,,,,,,,,,dddddddddddddd
+// ,,,,,,,,,,,,,,,,,,,,,.....,,,,,,dddddddddddddd
