@@ -45,7 +45,7 @@ console.log(typeof(X));
 const first1 = 3.456;
 const second2 = 2.789;
 const sum2 = first1 + second2;
-// console.log(sum2)
+//...... console.log(sum2)
 const splitNumber = parseFloat(sum2.toFixed(2));
 console.log(splitNumber)
 
