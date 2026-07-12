@@ -50,7 +50,7 @@ const splitNumber = parseFloat(sum2.toFixed(2));
 console.log(splitNumber)
 
 
-//,........ 5 two string fraction jog korta hobe
+//,.............. 5 two string fraction jog korta hobe
 const fraction1 = "56.78";
 const fraction2 = "12.34";
 const sumFraction = parseFloat(fraction1) + parseFloat(fraction2);
