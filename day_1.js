@@ -13,7 +13,7 @@ console.log(typeof(fatherValue));
 const first = 12.13568;
 const second = 31.22564;
 const total = first + second;
-// jodi toFixed use kori then number string a convert hoya jabe ...................................................
+// jodi toFixed use kori then number string a convert hoya jabe .......................................................
 const totalValue = total.toFixed(2);
 // string ka number a convert korche.
 const convertNumber = parseFloat(totalValue)
