@@ -127,7 +127,7 @@ const shape3 = new Rectangle(10, 20);
 // getArea(shape2);
 // getArea(shape3);
 
-//? 3-9 abstraction, the 3rd pillar of OOP..........ddd................
+//? 3-9 abstraction, the 3rd pillar of OOP..........ddd.................
 // idea
 // interface MediaPlay {
 //   play(): void;
