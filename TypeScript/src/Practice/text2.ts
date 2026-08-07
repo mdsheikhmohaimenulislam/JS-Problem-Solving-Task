@@ -143,7 +143,7 @@ const shape3 = new Rectangle(10, 20);
 //     console.log(`Pause music...............`);
 //   }
 //   stop() {
-//     console.log(`Stop music............8...`);
+//     console.log(`Stop music............9...`);
 //   }
 // }
 
