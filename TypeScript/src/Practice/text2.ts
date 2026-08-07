@@ -137,7 +137,7 @@ const shape3 = new Rectangle(10, 20);
 // // implementation..
 // class MusicPlay implements MediaPlay {
 //   play() {
-//     console.log(`Playing music............`);
+//     console.log(`Playing music.......  .....`);
 //   }
 //   pause() {
 //     console.log(`Pause music.............`);
