@@ -30,7 +30,7 @@ console.log(convertNumber,totalValue)
  console.log(sum);
 
 
-//  2 fraction number ka Whole number to convert,
+//  2 fraction number ka Whole number to convert,......
 const fraction = '3.14159';
 const convertWholeNumber = parseInt(fraction);
 console.log(convertWholeNumber);
