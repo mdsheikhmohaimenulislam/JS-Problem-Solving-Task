@@ -1,4 +1,4 @@
-// 1............😙....😙...bっっjんj..😙.......hhhsfffs..
+// 1............😙....😙...bっっjんj..😙.......hhhsffffs..
 // function jusKHaw() {
 //   console.log("ai now lemon jus!");
 // }
