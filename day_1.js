@@ -20,7 +20,7 @@ const convertNumber = parseFloat(totalValue)
 console.log(convertNumber,totalValue)
 
 
-// Practice:....dddddddd.ssdddddds....😋..😁🥺.🥺🥺.....000
+// Practice:....dddddssddd.ssdddddds....😋..😁🥺.🥺🥺.....000
 
 // 1. number jog kora.................😁😁
  const number = "20";
