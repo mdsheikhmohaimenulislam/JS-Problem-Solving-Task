@@ -6,7 +6,7 @@ This guide helps you modify your Ubuntu/Linux terminal prompt to display the cur
 Follow these steps to modify your ~/.bashrc file and enable Git branch display in your terminal prompt:
 
 #### 1. Open the Terminal
-#### 2. Edit the .bashrc File
+#### 2.. Edit the .bashrc File
 
 
 
