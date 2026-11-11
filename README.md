@@ -26,7 +26,7 @@ Use the arrow keys to navigate to the bottom of the .bashrc file.
 Copy the following code and paste it at the end of the .bashrc file:
 
 ```bash
-  ########### Show git branch name ###########
+  ########### Show git branch name ###############
 force_color_prompt=yes
 color_prompt=yes
 parse_git_branch() {
