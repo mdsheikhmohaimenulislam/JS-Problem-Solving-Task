@@ -4,7 +4,7 @@
 // }
 // jusKHaw();
 
-// 2........😊😊.....dd.🫣🫣🫣jっh........bv....
+// 2........😊😊.....dd.🫣🫣🫣jっh.000.......bv....
 // function myRoutine() {
 //   console.log("face wash");
 //   console.log("Wearing warm clothes");
