@@ -32,7 +32,7 @@
 // }
 // add(20, 15);
 
-// 3...........................222000dddfff00000000drdddrrrrddd0ccc.................
+// 3...........................222000ddddddddfff00000000drdddrrrrddd0ccc.................
 // function exam(a, b, c) {
 //   const result = a + b + c;
 //   console.log(result);
