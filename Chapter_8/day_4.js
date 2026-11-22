@@ -69,7 +69,7 @@
 
 // console.log(sum);
 
-//!............Object lock and keys ............................!//
+//!............Object lock and keys ..............000............!//
 
 // const computer = {
 //   brand: "loi",
