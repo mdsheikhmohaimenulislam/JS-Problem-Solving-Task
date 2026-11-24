@@ -7,7 +7,7 @@
 // const anime = ["LuffY","MidOriya","NarUto","AstA","zuFan"]
 // console.log(anime[3])
 
-// 2......😮‍💨😮‍💨😮‍💨,.......
+// 2......😮‍💨😮‍💨😮‍💨,....ll...
 // const book = [
 //   "The Quran",
 //   "SahIh al-BukHarI",
